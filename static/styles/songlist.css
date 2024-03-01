@@ -1,0 +1,67 @@
+.container {
+    width: 50vw;
+    float: left;
+    height: fit-content;
+    height: 80vh;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding-top: 3vh;
+}
+
+.option_holder {
+    display: flex;
+    margin: 4vh 3vw;
+    font-size: 36px;
+    color: black;
+}
+
+.option_link {
+    color: white;
+    text-decoration: none;
+}
+
+.option_link:hover {
+    font-weight: bold;
+}
+
+a {
+    display: block;
+}
+
+.currently-playing-song {
+    font-weight: bold;
+}
+
+
+
+
+.mini {
+    width: 40px;
+    height: 40px;
+    margin: auto 20px auto 0px;
+}
+
+
+
+.container a.currently-playing {
+    font-weight: bold;
+}
+
+.fade-in {
+    animation: fadeInAnimation 0.5s ease forwards;
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

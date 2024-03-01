@@ -1,0 +1,78 @@
+.album-list {
+
+    width: 50vw;
+    margin-top: -0.01vh;
+    overflow: hidden;
+
+    float: left;
+    overflow: auto;
+    height: 73vh;
+    z-index: -7;
+    border-radius: 0%;
+}
+
+.list-group-item {
+
+    box-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+    margin: 1vh 0.5vw;
+    padding-left: 1vw;
+    height: 22vh;
+    display: flex;
+    font-size: 28px;
+    color: #fff;
+
+    background-color: #222222;
+    opacity: 0;
+    animation: fadeIn 0.5s ease forwards;
+}
+
+.list-group-item:hover {
+    background-color: #333333;
+    cursor: pointer;
+}
+
+.currently-playing .album-cover {
+    box-shadow: 0 0 8px 3px rgb(13, 93, 22);
+}
+
+.title {
+    margin: auto 1vw;
+    font-size: 32px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.currently-playing {
+    text-shadow: 2px 3px 50px rgb(13, 93, 22);
+    box-shadow: 0 0 2px 2px rgb(13, 93, 22);
+}
+
+
+
+.album-cover {
+    margin: auto 10px;
+    width: 120px;
+    height: 120px;
+    border-radius: 25%;
+    box-shadow: 0 0 5px 3px rgb(91, 91, 91);
+}
+
+.song-list {
+    width: 75vw;
+}
+
+
+
+
+.album-list::-webkit-scrollbar,
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.album-list,
+.container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

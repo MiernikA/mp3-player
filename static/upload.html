@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <title>Upload Form</title>
+    <link rel="stylesheet" href="styles/upload.css">
+</head>
+
+<body>
+    <header class="up-header">Upload an Album</header>
+    <form action="/uploadFiles" method="post" enctype="multipart/form-data">
+        <label for="name">Album Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="creator">Creator Name:</label>
+        <input type="text" id="creator" name="creator">
+        <label for="folder">Select Files:</label>
+        <input type="file" id="folder" name="files" multiple>
+        <button type="submit">Upload</button>
+    </form>
+    <p class="comment">
+        Ensure that the files of your choice contains a .jpg file named "front.jpg" as the cover image and music files
+        with the .mp3
+        extension.
+
+    </p>
+    <a class="admin_bt" href="/">BACK</a>
+</body>
+
+</html>

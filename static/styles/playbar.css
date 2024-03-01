@@ -1,0 +1,139 @@
+.play-bar {
+    background-color: #222222;
+    width: 100vw;
+    height: 20vh;
+    position: fixed;
+    padding-top: 0;
+    bottom: 0;
+    z-index: 5;
+}
+
+#max_time {
+    display: flex;
+    color: white;
+    font-size: 22px;
+    margin: 25px;
+    text-shadow: 2px 2px 2px rgb(13, 93, 22);
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 90vw;
+    background: transparent;
+    border: 0;
+    top: 80vh;
+    height: 0.4vh;
+    position: fixed;
+    bottom: 20vh;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    border-radius: none;
+    z-index: 6;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 0;
+    height: 0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    input[type='range'] {
+        overflow: hidden;
+        width: 101vw;
+        background-color: rgb(82, 95, 89);
+    }
+
+    input[type='range']::-webkit-slider-runnable-track {
+        height: 0.5vh;
+        width: 101vw;
+        color: transparent;
+        margin-top: -1px;
+    }
+
+    input[type='range']::-webkit-slider-thumb {
+        width: 10px;
+        -webkit-appearance: none;
+        height: 10px;
+        cursor: ew-resize;
+        background: rgb(20, 139, 34);
+        box-shadow: -101vw 0 0 101vw rgb(20, 139, 34);
+    }
+}
+
+input[type="range"]::-moz-range-progress {
+    background-color: rgb(82, 95, 89);
+}
+
+input[type="range"]::-moz-range-track {
+    background-color: transparent;
+}
+
+input[type="range"]::-ms-fill-lower {
+    background-color: rgb(82, 95, 89);
+}
+
+input[type="range"]::-ms-fill-upper {
+    background-color: transparent;
+}
+
+.song-title {
+    margin-left: 4vw;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 0.1vw;
+    line-height: 1.3;
+}
+
+.song-title b {
+    font-size: 36px;
+}
+
+.song-title span {
+    margin-left: 2vw;
+    font-size: 36px;
+}
+
+#timer {
+    margin-top: 1vh;
+    display: flex;
+    color: white;
+    font-size: 22px;
+    margin-left: 1vw;
+    text-shadow: 2px 2px 2px rgb(13, 93, 22);
+    animation: fadeIn 0.5s ease forwards;
+}
+
+button {
+    margin: auto;
+}
+
+.text-holder {
+    height: 100%;
+    width: 42vw;
+    float: left;
+    margin: 0;
+    padding: 0;
+    animation: fadeIn 1s ease forwards;
+}
+
+.button-holder {
+    height: 100%;
+    width: 58vw;
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls {
+    height: 15vh;
+    cursor: pointer;
+    margin: 0 1vw;
+    animation: fadeIn 0.5s ease forwards;
+}

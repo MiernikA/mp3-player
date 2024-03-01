@@ -1,0 +1,3 @@
+let isPlaying = true;
+
+buildSite();

@@ -1,0 +1,38 @@
+body {
+    user-select: none;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background: linear-gradient(to top, #333333, #777777);
+}
+
+.admin_bt {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 1.5vh;
+    right: 2vw;
+    z-index: 15;
+}
+
+.admin_bt:hover {
+    background-color: #999;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+
+}
+
+form {
+    animation: fadeIn 1s ease forwards;
+    font-size: 22px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    width: 30vw;
+}
+
+
+
+input[type="text"],
+input[type="file"],
+button {
+    width: calc(100% - 20px);
+    padding: 1vh;
+    margin: 2vh 0;
+    margin-bottom: 2vh;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 22px;
+}
+
+.up-header {
+    z-index: 5;
+    background-color: #222222;
+    line-height: 7vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 4vh;
+    box-shadow: 0 0 5px 5px #000;
+}
+
+.comment {
+    animation: fadeIn 3s ease forwards;
+    margin-top: 8vh;
+    font-size: 22px;
+    color: #111;
+
+}
+
+input[type="file"] {
+    border: none;
+}
+
+button {
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #222;
+}

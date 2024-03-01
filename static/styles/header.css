@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    box-shadow: 0 0 5px 5px #000;
+}
+
+.album-header,
+.song-header {
+    z-index: 5;
+    background-color: #222222;
+    line-height: 7vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.song-header,
+.album-header {
+    width: 50vw;
+}
