@@ -23,11 +23,11 @@ This is a simple MP3 player project built using Node.js, Express, and HTML/CSS/J
    
 2. Navigate to the project directory:
    ```bash
-      cd mp3-player-main
+   cd mp3-player-main
 
 3. Install dependencies:
-      ```bash
-      jnpm install
+   ```bash
+   npm install
 
 ## Usage
 
