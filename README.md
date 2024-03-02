@@ -1,4 +1,4 @@
-# High School MP3 Player
+# MP3 Player
 
 This is a simple MP3 player project built using Node.js, Express, and HTML/CSS/JavaScript. It allows users to upload MP3 files, organize them into albums, and play them through a web interface.
 
